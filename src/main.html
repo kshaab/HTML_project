@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="row min-vh-100">
-        <div class="col-2 d-flex">
+        <div class="col-2 d-flex position-fixed h-100 p-0">
             <div class="card w-100 h-100 text-bg-dark mb-3 rounded-0"> <!--панель верх-->
                   <div class="card-header d-flex align-items-center">
                        <img src="../images/icons8-bootstrap-50.png"
@@ -31,15 +31,15 @@
                           <img src="../images/d85c0b08bd64f2d19b3568fe951050f2.jpg" class="rounded-circle" alt="..." width="30" height="30">
                         Пользователь
                       </button>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Профиль</a></li>
-                        <li><a class="dropdown-item" href="#">Выход</a></li>
+                      <ul class="dropdown-menu btn btn-dark">
+                        <li><a class="dropdown-item text-light" href="#">Профиль</a></li>
+                        <li><a class="dropdown-item text-light" href="#">Выход</a></li>
                       </ul>
                     </div>
                   </div>
             </div>
         </div>
-        <div class="col-10"> <!--основная страница-->
+        <div class="col-10 offset-2"> <!--основная страница-->
             <p class="fs-2 text-center" style="margin-top: 100px;">Главная</p>
             <p class="fs-6 text-center" style="color: gray;">Вы находитесь на сайте, предназначенном для продажи товаров.</p>
             <div class="container mt-5"> <!--карточки с товаром на странице-->
